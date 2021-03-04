@@ -1,2 +1,2 @@
 # EzSavior
-1st app with Khing
+1st app with partner
