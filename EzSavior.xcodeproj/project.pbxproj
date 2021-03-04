@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CD450C72577266000B9ADED /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD450C62577266000B9ADED /* PopUpViewController.swift */; };
+		C41A9EF7256440B200A60825 /* ChangePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41A9EF6256440B200A60825 /* ChangePassword.swift */; };
+		C41C820F252EF3CE00F5D3DC /* Dowoon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C41C820E252EF3CE00F5D3DC /* Dowoon.jpg */; };
+		C42F596E2564DBD500A0DB4D /* ChangeProfilePicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42F596D2564DBD500A0DB4D /* ChangeProfilePicture.swift */; };
+		C446984225248ED800E5E44C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C446984125248ED800E5E44C /* GoogleService-Info.plist */; };
+		C44B7C822574C7D200BA8A32 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44B7C812574C7D200BA8A32 /* AddButton.swift */; };
+		C44B7C852574C9F100BA8A32 /* ChooseBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44B7C842574C9F100BA8A32 /* ChooseBtn.swift */; };
+		C44B7C892574CA6E00BA8A32 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44B7C882574CA6E00BA8A32 /* Label.swift */; };
+		C44B7C902574E1F600BA8A32 /* coin_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = C44B7C8E2574E1F500BA8A32 /* coin_yellow.png */; };
+		C44B7C912574E1F600BA8A32 /* coin_green.png in Resources */ = {isa = PBXBuildFile; fileRef = C44B7C8F2574E1F500BA8A32 /* coin_green.png */; };
+		C44B7C992574FB6100BA8A32 /* Shopping.png in Resources */ = {isa = PBXBuildFile; fileRef = C44B7C952574FB6100BA8A32 /* Shopping.png */; };
+		C44B7C9A2574FB6100BA8A32 /* Food.png in Resources */ = {isa = PBXBuildFile; fileRef = C44B7C962574FB6100BA8A32 /* Food.png */; };
+		C44B7C9B2574FB6100BA8A32 /* Else.png in Resources */ = {isa = PBXBuildFile; fileRef = C44B7C972574FB6100BA8A32 /* Else.png */; };
+		C44B7C9C2574FB6100BA8A32 /* Travel.png in Resources */ = {isa = PBXBuildFile; fileRef = C44B7C982574FB6100BA8A32 /* Travel.png */; };
+		C44B7CA02575000000BA8A32 /* Outcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44B7C9F2575000000BA8A32 /* Outcome.swift */; };
+		C4520DA42528230A009A0DB3 /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4520DA32528230A009A0DB3 /* RegisterPage.swift */; };
+		C4637F342573F3E700B1A8FB /* ezsavior_icon_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C4637F302573F3E600B1A8FB /* ezsavior_icon_1.png */; };
+		C4637F352573F3E700B1A8FB /* ezsavior_icon_3.png in Resources */ = {isa = PBXBuildFile; fileRef = C4637F312573F3E600B1A8FB /* ezsavior_icon_3.png */; };
+		C4637F362573F3E700B1A8FB /* ezsavior_icon_4.png in Resources */ = {isa = PBXBuildFile; fileRef = C4637F322573F3E700B1A8FB /* ezsavior_icon_4.png */; };
+		C4637F372573F3E700B1A8FB /* ezsavior_icon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C4637F332573F3E700B1A8FB /* ezsavior_icon_2.png */; };
+		C4672ADB252EB32200B578CE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4672ADA252EB32200B578CE /* Home.swift */; };
+		C4672ADE252EB34400B578CE /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4672ADD252EB34400B578CE /* Account.swift */; };
+		C4672AE4252EB36000B578CE /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4672AE3252EB36000B578CE /* Settings.swift */; };
+		C485764B2562D84500F6149C /* BaseTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C485764A2562D84500F6149C /* BaseTabbar.swift */; };
+		C48576502563BBD300F6149C /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C485764F2563BBD300F6149C /* HomeTableViewCell.swift */; };
+		C48576542563C58C00F6149C /* addbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = C48576532563C58C00F6149C /* addbtn.png */; };
+		C499BC2D2547E54A0074A316 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C499BC2C2547E54A0074A316 /* Extensions.swift */; };
+		C49DA5B225752FBD00470D4C /* Income.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DA5B125752FBD00470D4C /* Income.swift */; };
+		C49DA5B625752FCF00470D4C /* IncomeDDCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49DA5B425752FCF00470D4C /* IncomeDDCell.swift */; };
+		C49DA5B725752FCF00470D4C /* IncomeDDCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C49DA5B525752FCF00470D4C /* IncomeDDCell.xib */; };
+		C49DA5BD2575367500470D4C /* Prize.png in Resources */ = {isa = PBXBuildFile; fileRef = C49DA5B92575367400470D4C /* Prize.png */; };
+		C49DA5BE2575367500470D4C /* Gift.png in Resources */ = {isa = PBXBuildFile; fileRef = C49DA5BA2575367400470D4C /* Gift.png */; };
+		C49DA5BF2575367500470D4C /* Sales.png in Resources */ = {isa = PBXBuildFile; fileRef = C49DA5BB2575367400470D4C /* Sales.png */; };
+		C49DA5C02575367500470D4C /* Salary.png in Resources */ = {isa = PBXBuildFile; fileRef = C49DA5BC2575367400470D4C /* Salary.png */; };
+		C49DA5C525758E3200470D4C /* account.png in Resources */ = {isa = PBXBuildFile; fileRef = C49DA5C425758E3200470D4C /* account.png */; };
+		C49DA5C82575907300470D4C /* moneyBag.png in Resources */ = {isa = PBXBuildFile; fileRef = C49DA5C72575907300470D4C /* moneyBag.png */; };
+		C4A16E1A25766E0100435866 /* HomeTableInfoOutcomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A16E1925766E0100435866 /* HomeTableInfoOutcomeCell.swift */; };
+		C4A16E1D2576700700435866 /* Pods_EzSavior.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700B78A00865FA313112F1F0 /* Pods_EzSavior.framework */; };
+		C4B7DFB72563F68400197365 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4B7DFB32563F68300197365 /* Montserrat-Medium.ttf */; };
+		C4B7DFB82563F68400197365 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4B7DFB42563F68300197365 /* Montserrat-Regular.ttf */; };
+		C4B7DFB92563F68400197365 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4B7DFB52563F68400197365 /* Montserrat-ExtraBold.ttf */; };
+		C4B7DFBA2563F68400197365 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4B7DFB62563F68400197365 /* Montserrat-Bold.ttf */; };
+		C4B7DFBD2563FEF700197365 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4B7DFBC2563FEF700197365 /* Montserrat-SemiBold.ttf */; };
+		C4B7DFC12564117B00197365 /* EzSavior_Main_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B7DFC02564117B00197365 /* EzSavior_Main_Logo.png */; };
+		C4B7DFCA2564392900197365 /* ChangeUsername.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B7DFC92564392900197365 /* ChangeUsername.swift */; };
+		C4BF5DEA25248C5400C0A58F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BF5DE925248C5400C0A58F /* AppDelegate.swift */; };
+		C4BF5DEC25248C5400C0A58F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BF5DEB25248C5400C0A58F /* SceneDelegate.swift */; };
+		C4BF5DEE25248C5400C0A58F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BF5DED25248C5400C0A58F /* ViewController.swift */; };
+		C4BF5DF125248C5400C0A58F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BF5DEF25248C5400C0A58F /* Main.storyboard */; };
+		C4BF5DF325248C5500C0A58F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4BF5DF225248C5500C0A58F /* Assets.xcassets */; };
+		C4BF5DF625248C5500C0A58F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BF5DF425248C5500C0A58F /* LaunchScreen.storyboard */; };
+		C4E5F40C25765BB2005E85B0 /* HomeTableInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E5F40B25765BB2005E85B0 /* HomeTableInfoCell.swift */; };
+		C4F21FFD2575107B004C3E87 /* OutcomeDDCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F21FFB2575107B004C3E87 /* OutcomeDDCell.swift */; };
+		C4F21FFE2575107B004C3E87 /* OutcomeDDCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4F21FFC2575107B004C3E87 /* OutcomeDDCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CD450C62577266000B9ADED /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		68460A85898B6EBD40EE4A58 /* Pods-EzSavior.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzSavior.release.xcconfig"; path = "Target Support Files/Pods-EzSavior/Pods-EzSavior.release.xcconfig"; sourceTree = "<group>"; };
+		700B78A00865FA313112F1F0 /* Pods_EzSavior.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EzSavior.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5586174AB73B3E1E7B54B8 /* Pods-EzSavior.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzSavior.debug.xcconfig"; path = "Target Support Files/Pods-EzSavior/Pods-EzSavior.debug.xcconfig"; sourceTree = "<group>"; };
+		C41A9EF6256440B200A60825 /* ChangePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePassword.swift; sourceTree = "<group>"; };
+		C41C820E252EF3CE00F5D3DC /* Dowoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dowoon.jpg; sourceTree = "<group>"; };
+		C42F596D2564DBD500A0DB4D /* ChangeProfilePicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeProfilePicture.swift; sourceTree = "<group>"; };
+		C446984125248ED800E5E44C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C44B7C812574C7D200BA8A32 /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		C44B7C842574C9F100BA8A32 /* ChooseBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseBtn.swift; sourceTree = "<group>"; };
+		C44B7C882574CA6E00BA8A32 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		C44B7C8E2574E1F500BA8A32 /* coin_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coin_yellow.png; sourceTree = "<group>"; };
+		C44B7C8F2574E1F500BA8A32 /* coin_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coin_green.png; sourceTree = "<group>"; };
+		C44B7C952574FB6100BA8A32 /* Shopping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shopping.png; sourceTree = "<group>"; };
+		C44B7C962574FB6100BA8A32 /* Food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Food.png; sourceTree = "<group>"; };
+		C44B7C972574FB6100BA8A32 /* Else.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Else.png; sourceTree = "<group>"; };
+		C44B7C982574FB6100BA8A32 /* Travel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Travel.png; sourceTree = "<group>"; };
+		C44B7C9F2575000000BA8A32 /* Outcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outcome.swift; sourceTree = "<group>"; };
+		C4520DA32528230A009A0DB3 /* RegisterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
+		C4637F302573F3E600B1A8FB /* ezsavior_icon_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ezsavior_icon_1.png; sourceTree = "<group>"; };
+		C4637F312573F3E600B1A8FB /* ezsavior_icon_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ezsavior_icon_3.png; sourceTree = "<group>"; };
+		C4637F322573F3E700B1A8FB /* ezsavior_icon_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ezsavior_icon_4.png; sourceTree = "<group>"; };
+		C4637F332573F3E700B1A8FB /* ezsavior_icon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ezsavior_icon_2.png; sourceTree = "<group>"; };
+		C4672ADA252EB32200B578CE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C4672ADD252EB34400B578CE /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		C4672AE3252EB36000B578CE /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		C485764A2562D84500F6149C /* BaseTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabbar.swift; sourceTree = "<group>"; };
+		C485764F2563BBD300F6149C /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		C48576532563C58C00F6149C /* addbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addbtn.png; sourceTree = "<group>"; };
+		C499BC2C2547E54A0074A316 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C49DA5B125752FBD00470D4C /* Income.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income.swift; sourceTree = "<group>"; };
+		C49DA5B425752FCF00470D4C /* IncomeDDCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeDDCell.swift; sourceTree = "<group>"; };
+		C49DA5B525752FCF00470D4C /* IncomeDDCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IncomeDDCell.xib; sourceTree = "<group>"; };
+		C49DA5B92575367400470D4C /* Prize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Prize.png; sourceTree = "<group>"; };
+		C49DA5BA2575367400470D4C /* Gift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gift.png; sourceTree = "<group>"; };
+		C49DA5BB2575367400470D4C /* Sales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sales.png; sourceTree = "<group>"; };
+		C49DA5BC2575367400470D4C /* Salary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Salary.png; sourceTree = "<group>"; };
+		C49DA5C425758E3200470D4C /* account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account.png; sourceTree = "<group>"; };
+		C49DA5C72575907300470D4C /* moneyBag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moneyBag.png; sourceTree = "<group>"; };
+		C4A16E1925766E0100435866 /* HomeTableInfoOutcomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableInfoOutcomeCell.swift; sourceTree = "<group>"; };
+		C4B7DFB32563F68300197365 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		C4B7DFB42563F68300197365 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		C4B7DFB52563F68400197365 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C4B7DFB62563F68400197365 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		C4B7DFBC2563FEF700197365 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		C4B7DFC02564117B00197365 /* EzSavior_Main_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EzSavior_Main_Logo.png; sourceTree = "<group>"; };
+		C4B7DFC92564392900197365 /* ChangeUsername.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUsername.swift; sourceTree = "<group>"; };
+		C4BF5DE625248C5400C0A58F /* EzSavior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzSavior.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BF5DE925248C5400C0A58F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4BF5DEB25248C5400C0A58F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C4BF5DED25248C5400C0A58F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4BF5DF025248C5400C0A58F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4BF5DF225248C5500C0A58F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4BF5DF525248C5500C0A58F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4BF5DF725248C5500C0A58F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E5F40B25765BB2005E85B0 /* HomeTableInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableInfoCell.swift; sourceTree = "<group>"; };
+		C4F21FFB2575107B004C3E87 /* OutcomeDDCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutcomeDDCell.swift; sourceTree = "<group>"; };
+		C4F21FFC2575107B004C3E87 /* OutcomeDDCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OutcomeDDCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4BF5DE325248C5400C0A58F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A16E1D2576700700435866 /* Pods_EzSavior.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBB66C56D76801553A73A96D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD5586174AB73B3E1E7B54B8 /* Pods-EzSavior.debug.xcconfig */,
+				68460A85898B6EBD40EE4A58 /* Pods-EzSavior.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BF4C76CD54348A96BA43BC9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				700B78A00865FA313112F1F0 /* Pods_EzSavior.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C44B7C872574CA4100BA8A32 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				C44B7C812574C7D200BA8A32 /* AddButton.swift */,
+				C44B7C842574C9F100BA8A32 /* ChooseBtn.swift */,
+				C44B7C882574CA6E00BA8A32 /* Label.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		C44B7C932574F2AD00BA8A32 /* Else */ = {
+			isa = PBXGroup;
+			children = (
+				C4BF5DED25248C5400C0A58F /* ViewController.swift */,
+				C4520DA32528230A009A0DB3 /* RegisterPage.swift */,
+				C485764A2562D84500F6149C /* BaseTabbar.swift */,
+			);
+			name = Else;
+			sourceTree = "<group>";
+		};
+		C44B7C9E2574FFD800BA8A32 /* AddingList */ = {
+			isa = PBXGroup;
+			children = (
+				C44B7C9F2575000000BA8A32 /* Outcome.swift */,
+				C4F21FFB2575107B004C3E87 /* OutcomeDDCell.swift */,
+				C4F21FFC2575107B004C3E87 /* OutcomeDDCell.xib */,
+				C49DA5B125752FBD00470D4C /* Income.swift */,
+				C49DA5B425752FCF00470D4C /* IncomeDDCell.swift */,
+				C49DA5B525752FCF00470D4C /* IncomeDDCell.xib */,
+			);
+			path = AddingList;
+			sourceTree = "<group>";
+		};
+		C48576522563C57900F6149C /* media */ = {
+			isa = PBXGroup;
+			children = (
+				C48576532563C58C00F6149C /* addbtn.png */,
+				C4B7DFC02564117B00197365 /* EzSavior_Main_Logo.png */,
+				C41C820E252EF3CE00F5D3DC /* Dowoon.jpg */,
+				C44B7C8F2574E1F500BA8A32 /* coin_green.png */,
+				C44B7C8E2574E1F500BA8A32 /* coin_yellow.png */,
+				C49DA5C425758E3200470D4C /* account.png */,
+				C49DA5C72575907300470D4C /* moneyBag.png */,
+				C44B7C962574FB6100BA8A32 /* Food.png */,
+				C44B7C972574FB6100BA8A32 /* Else.png */,
+				C44B7C952574FB6100BA8A32 /* Shopping.png */,
+				C44B7C982574FB6100BA8A32 /* Travel.png */,
+				C49DA5BA2575367400470D4C /* Gift.png */,
+				C49DA5B92575367400470D4C /* Prize.png */,
+				C49DA5BC2575367400470D4C /* Salary.png */,
+				C49DA5BB2575367400470D4C /* Sales.png */,
+				C4637F302573F3E600B1A8FB /* ezsavior_icon_1.png */,
+				C4637F332573F3E700B1A8FB /* ezsavior_icon_2.png */,
+				C4637F312573F3E600B1A8FB /* ezsavior_icon_3.png */,
+				C4637F322573F3E700B1A8FB /* ezsavior_icon_4.png */,
+			);
+			name = media;
+			sourceTree = "<group>";
+		};
+		C499BC2F2547E5790074A316 /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				C4672ADA252EB32200B578CE /* Home.swift */,
+				C485764F2563BBD300F6149C /* HomeTableViewCell.swift */,
+				C4E5F40B25765BB2005E85B0 /* HomeTableInfoCell.swift */,
+				C4A16E1925766E0100435866 /* HomeTableInfoOutcomeCell.swift */,
+				2CD450C62577266000B9ADED /* PopUpViewController.swift */,
+				C44B7C9E2574FFD800BA8A32 /* AddingList */,
+				C4672ADD252EB34400B578CE /* Account.swift */,
+				C4672AE3252EB36000B578CE /* Settings.swift */,
+				C42F596D2564DBD500A0DB4D /* ChangeProfilePicture.swift */,
+				C4B7DFC92564392900197365 /* ChangeUsername.swift */,
+				C41A9EF6256440B200A60825 /* ChangePassword.swift */,
+			);
+			name = "Main Screen";
+			sourceTree = "<group>";
+		};
+		C4B7DFB22563F65200197365 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				C4B7DFB62563F68400197365 /* Montserrat-Bold.ttf */,
+				C4B7DFB52563F68400197365 /* Montserrat-ExtraBold.ttf */,
+				C4B7DFB32563F68300197365 /* Montserrat-Medium.ttf */,
+				C4B7DFB42563F68300197365 /* Montserrat-Regular.ttf */,
+				C4B7DFBC2563FEF700197365 /* Montserrat-SemiBold.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		C4BF5DDD25248C5400C0A58F = {
+			isa = PBXGroup;
+			children = (
+				C4B7DFB22563F65200197365 /* font */,
+				C48576522563C57900F6149C /* media */,
+				C4BF5DE825248C5400C0A58F /* EzSavior */,
+				C4BF5DE725248C5400C0A58F /* Products */,
+				BBB66C56D76801553A73A96D /* Pods */,
+				BF4C76CD54348A96BA43BC9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C4BF5DE725248C5400C0A58F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4BF5DE625248C5400C0A58F /* EzSavior.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4BF5DE825248C5400C0A58F /* EzSavior */ = {
+			isa = PBXGroup;
+			children = (
+				C4BF5DE925248C5400C0A58F /* AppDelegate.swift */,
+				C4BF5DEB25248C5400C0A58F /* SceneDelegate.swift */,
+				C499BC2C2547E54A0074A316 /* Extensions.swift */,
+				C4BF5DEF25248C5400C0A58F /* Main.storyboard */,
+				C4BF5DF425248C5500C0A58F /* LaunchScreen.storyboard */,
+				C499BC2F2547E5790074A316 /* Main Screen */,
+				C44B7C872574CA4100BA8A32 /* Animation */,
+				C44B7C932574F2AD00BA8A32 /* Else */,
+				C4BF5DF225248C5500C0A58F /* Assets.xcassets */,
+				C4BF5DF725248C5500C0A58F /* Info.plist */,
+				C446984125248ED800E5E44C /* GoogleService-Info.plist */,
+			);
+			path = EzSavior;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4BF5DE525248C5400C0A58F /* EzSavior */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4BF5DFA25248C5500C0A58F /* Build configuration list for PBXNativeTarget "EzSavior" */;
+			buildPhases = (
+				5D9F2278285FAE53C19F9C0C /* [CP] Check Pods Manifest.lock */,
+				C4BF5DE225248C5400C0A58F /* Sources */,
+				C4BF5DE325248C5400C0A58F /* Frameworks */,
+				C4BF5DE425248C5400C0A58F /* Resources */,
+				F0A8759D11043B9FDDF75BBA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EzSavior;
+			productName = EzSavior;
+			productReference = C4BF5DE625248C5400C0A58F /* EzSavior.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4BF5DDE25248C5400C0A58F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					C4BF5DE525248C5400C0A58F = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C4BF5DE125248C5400C0A58F /* Build configuration list for PBXProject "EzSavior" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4BF5DDD25248C5400C0A58F;
+			productRefGroup = C4BF5DE725248C5400C0A58F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4BF5DE525248C5400C0A58F /* EzSavior */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4BF5DE425248C5400C0A58F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44B7C912574E1F600BA8A32 /* coin_green.png in Resources */,
+				C49DA5C02575367500470D4C /* Salary.png in Resources */,
+				C4B7DFB92563F68400197365 /* Montserrat-ExtraBold.ttf in Resources */,
+				C4637F362573F3E700B1A8FB /* ezsavior_icon_4.png in Resources */,
+				C49DA5BE2575367500470D4C /* Gift.png in Resources */,
+				C49DA5C82575907300470D4C /* moneyBag.png in Resources */,
+				C4637F372573F3E700B1A8FB /* ezsavior_icon_2.png in Resources */,
+				C49DA5C525758E3200470D4C /* account.png in Resources */,
+				C4B7DFB82563F68400197365 /* Montserrat-Regular.ttf in Resources */,
+				C48576542563C58C00F6149C /* addbtn.png in Resources */,
+				C4637F352573F3E700B1A8FB /* ezsavior_icon_3.png in Resources */,
+				C49DA5BD2575367500470D4C /* Prize.png in Resources */,
+				C4B7DFBA2563F68400197365 /* Montserrat-Bold.ttf in Resources */,
+				C44B7C9B2574FB6100BA8A32 /* Else.png in Resources */,
+				C4BF5DF625248C5500C0A58F /* LaunchScreen.storyboard in Resources */,
+				C44B7C9C2574FB6100BA8A32 /* Travel.png in Resources */,
+				C4637F342573F3E700B1A8FB /* ezsavior_icon_1.png in Resources */,
+				C49DA5B725752FCF00470D4C /* IncomeDDCell.xib in Resources */,
+				C44B7C992574FB6100BA8A32 /* Shopping.png in Resources */,
+				C44B7C902574E1F600BA8A32 /* coin_yellow.png in Resources */,
+				C49DA5BF2575367500470D4C /* Sales.png in Resources */,
+				C4BF5DF325248C5500C0A58F /* Assets.xcassets in Resources */,
+				C41C820F252EF3CE00F5D3DC /* Dowoon.jpg in Resources */,
+				C4F21FFE2575107B004C3E87 /* OutcomeDDCell.xib in Resources */,
+				C4B7DFB72563F68400197365 /* Montserrat-Medium.ttf in Resources */,
+				C44B7C9A2574FB6100BA8A32 /* Food.png in Resources */,
+				C4B7DFC12564117B00197365 /* EzSavior_Main_Logo.png in Resources */,
+				C4B7DFBD2563FEF700197365 /* Montserrat-SemiBold.ttf in Resources */,
+				C446984225248ED800E5E44C /* GoogleService-Info.plist in Resources */,
+				C4BF5DF125248C5400C0A58F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D9F2278285FAE53C19F9C0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EzSavior-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0A8759D11043B9FDDF75BBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EzSavior/Pods-EzSavior-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EzSavior/Pods-EzSavior-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EzSavior/Pods-EzSavior-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4BF5DE225248C5400C0A58F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49DA5B625752FCF00470D4C /* IncomeDDCell.swift in Sources */,
+				C4F21FFD2575107B004C3E87 /* OutcomeDDCell.swift in Sources */,
+				C4672ADB252EB32200B578CE /* Home.swift in Sources */,
+				C4B7DFCA2564392900197365 /* ChangeUsername.swift in Sources */,
+				C44B7CA02575000000BA8A32 /* Outcome.swift in Sources */,
+				C41A9EF7256440B200A60825 /* ChangePassword.swift in Sources */,
+				C4E5F40C25765BB2005E85B0 /* HomeTableInfoCell.swift in Sources */,
+				C44B7C822574C7D200BA8A32 /* AddButton.swift in Sources */,
+				C499BC2D2547E54A0074A316 /* Extensions.swift in Sources */,
+				2CD450C72577266000B9ADED /* PopUpViewController.swift in Sources */,
+				C485764B2562D84500F6149C /* BaseTabbar.swift in Sources */,
+				C4520DA42528230A009A0DB3 /* RegisterPage.swift in Sources */,
+				C48576502563BBD300F6149C /* HomeTableViewCell.swift in Sources */,
+				C4672ADE252EB34400B578CE /* Account.swift in Sources */,
+				C4BF5DEE25248C5400C0A58F /* ViewController.swift in Sources */,
+				C4BF5DEA25248C5400C0A58F /* AppDelegate.swift in Sources */,
+				C4BF5DEC25248C5400C0A58F /* SceneDelegate.swift in Sources */,
+				C42F596E2564DBD500A0DB4D /* ChangeProfilePicture.swift in Sources */,
+				C44B7C892574CA6E00BA8A32 /* Label.swift in Sources */,
+				C4672AE4252EB36000B578CE /* Settings.swift in Sources */,
+				C49DA5B225752FBD00470D4C /* Income.swift in Sources */,
+				C4A16E1A25766E0100435866 /* HomeTableInfoOutcomeCell.swift in Sources */,
+				C44B7C852574C9F100BA8A32 /* ChooseBtn.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4BF5DEF25248C5400C0A58F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4BF5DF025248C5400C0A58F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4BF5DF425248C5500C0A58F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4BF5DF525248C5500C0A58F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4BF5DF825248C5500C0A58F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4BF5DF925248C5500C0A58F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4BF5DFB25248C5500C0A58F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD5586174AB73B3E1E7B54B8 /* Pods-EzSavior.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4555MH983H;
+				INFOPLIST_FILE = EzSavior/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HattoKhing.EzSavior;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4BF5DFC25248C5500C0A58F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68460A85898B6EBD40EE4A58 /* Pods-EzSavior.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4555MH983H;
+				INFOPLIST_FILE = EzSavior/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HattoKhing.EzSavior;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4BF5DE125248C5400C0A58F /* Build configuration list for PBXProject "EzSavior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BF5DF825248C5500C0A58F /* Debug */,
+				C4BF5DF925248C5500C0A58F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4BF5DFA25248C5500C0A58F /* Build configuration list for PBXNativeTarget "EzSavior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BF5DFB25248C5500C0A58F /* Debug */,
+				C4BF5DFC25248C5500C0A58F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4BF5DDE25248C5400C0A58F /* Project object */;
+}
