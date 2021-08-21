@@ -1,2 +1,2 @@
 # EzSavior
-1st app with partner
+1st app
